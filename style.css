@@ -75,16 +75,18 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 10px 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    resize: none;
 }
 
 input[type="submit"] {
-    background-color: #a30000;
+    background-color: #0051ff;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -93,7 +95,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #5b0000;
+    background-color: #00bdf7;
 }
 
 /* Estilos para el footer */
